@@ -50,3 +50,12 @@ Remove-Item -Force -Recurse .git
 
 # commit 
     git commit -m "first-commit"
+
+# convert branch from MASTER to MAIN
+    git branch -M main
+
+# create a new repository on GitHub and get the url (paste url down here)
+    git remote add origin https://github.com/09heatherj/notes-full-stack-twt.git
+
+# push to repository
+    git push -u origin main
